@@ -1,0 +1,59 @@
+<%@ page import="java.sql.*" %>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<header>
+
+<div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="bg-secondary text-white" class="text-danger" style="text-align: center;">Winter Training Management System</h1>
+                </div>
+            </div>	
+</div> 
+  
+<table cellspacing="10" cellpadding="15"><tr>
+        <td><a class="text-warning" href="index.jsp"><b>Home</b></a></td>
+        <td><a class="text-warning" href="place.jsp"><b>Place</b></a> </td>
+        <td><a class="text-warning" href="#"><b>About</b></a></td>
+        <td><a class="text-warning" href="contact.jsp"><b>Contact</b></a></td></tr></table>
+ <main>
+     <section>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+	 <br>
+<marquee direction="right" scrollamount="5">
+	    <h1 class="text-danger" class="bg-secondary text-white" style="text-align: center;"><I><b>Mera Utter Pradesh</I></b></h1>
+		<h3 class="text-danger" style="text-align: center;"><b><i>Come And Visit Here</i></b></h3>
+		<p><h4 class="text-danger" style="text-align: center;"><I><b>In INDIA Once Is Not Enough In Utter Pradesh</b></I></h4></p>
+</marquee>	
+	<form action="">
+		 <input type="submit" value="Log In Here If Have An Account" name="b1" class="btn btn-success" />
+		 <input type="submit" value="Sign Up Here For Visiting Places" name="b2" class="btn btn-success" /><br><br>
+		 <%
+                        if(request.getParameter("b1")!=null)
+                        {
+                            response.sendRedirect("login.jsp");
+                        }
+						else if(request.getParameter("b2")!=null)
+                        {
+                            response.sendRedirect("sign.jsp");
+                        }
+		%>
+		 </form>
+	 </section>
+</main>	        
+</header>	 
+</body>
+</html>

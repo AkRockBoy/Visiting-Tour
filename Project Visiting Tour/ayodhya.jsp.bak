@@ -1,0 +1,70 @@
+<%@ page import="java.sql.*" %>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style2.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="bg-secondary text-light">
+<table cellspacing="10" cellpadding="15"><tr>
+        <td><a class="text-warning" href="index.jsp"><b>Home</b></a></td>
+        <td><a class="text-warning" href="place.jsp"><b>Place</b></a> </td>
+        <td><a class="text-warning" href="#"><b>About</b></a></td>
+        <td><a class="text-warning" href="#"><b>Contact</b></a></td></tr></table>
+<h1 align="center" class="bg-secondary text-dark">Ram Mandir</h1>
+<h4 class="bg-secondary text-dark"><p align="center"><B>Ram Mandir</B>&nbsp is a Hindu temple that is being built in Ayodhya, 
+Uttar Pradesh, India, at the site of Ram Janmabhoomi,
+according to the Ramayana, the birthplace of Rama, a principal deity of Hinduism.
+</p>
+<p align="center">Ram Janmabhoomi (literally, "Rama's birthplace") is the site that is hypothesized to be the birthplace 
+of Rama, believed to be the seventh avatar of the Hindu deity Vishnu. The Ramayana states that
+the location of Rama's birthplace is on the banks of the Sarayu river in a city called "Ayodhya".</p>
+<br>
+<p align="center">
+ Some Hindus claim that the exact site of Rama's birthplace is where the Babri Masjid once stood in the present-day Ayodhya, 
+Uttar Pradesh.
+[2] According to this theory, the Mughals demolished a 
+Hindu shrine that marked the spot, and constructed a mosque in its place. People opposed to this theory state that such claims arose only 
+in the 18th century, and that there is no evidence for the spot being the birthplace of Rama. Several other sites, including places in other 
+parts of India, Afghanistan, and Nepal, have been proposed as birthplaces of Rama. The political, historical and socio-religious 
+debate over the history and location of the Babri Mosque, and whether a 
+previous temple was demolished or modified to create it, is known as the Ayodhya dispute.
+In 1992, the demolition of the Babri Masjid by Hindu nationalists triggered widespread 
+Hindu-Muslim violence. The legal dispute over the property reached the Indian Supreme Court, which heard the title dispute cases from August to October 2019.[3][4] On 9 November 2019, the
+ Supreme Court ordered the land to be handed over to a trust to build a Hindu temple.[5]
+ Ram Mandir is a Hindu temple that is being built in Ayodhya, Uttar Pradesh, India, at the site 
+of Ram Janmabhoomi, according to the Ramayana, the birthplace of Rama, a principal deity of Hinduism.
+</p>
+<br>
+<h2 class="text-primary" class="background-color:maroon" align="center">Diwali In Ayodhya</h2><br>
+<div class="row">
+<div class="column">
+    <img src="a1.jpeg" alt="mandir" style="width:100%;height:40%;"></a><br><br>
+	<img src="a4.jpeg" alt="mandir" style="width:100%;height:40%;"></a>
+</div>
+<div class="column">
+    <img src="a2.jpeg" alt="mandir" style="width:100%;height:40%;"></a><br><br>
+	<img src="a5.jpeg" alt="mandir" style="width:100%;height:40%;"></a>
+</div>
+<div class="column">
+    <img src="a3.jpeg" alt="mandir" style="width:100%;height:40%;"></a><br><br>
+    <img src="a1.jpeg" alt="mandir" style="width:100%;height:40%;"></a>
+</div>
+</div>
+<h3><p><p align="center"> class="text-primary" align="center">This year virtual Diwali</p><p>
+Uttar Pradesh state government has good news for those who wish to attend the grand
+ Diwali celebration in Ayodhya but cannot go there owing to the ongoing COVID-19 pandemic.
+You need not be sad as this year, you can light the lamps and diyas in Ayodhya virtually.
+</p><p align="center">
+UP government is creating a web portal that will have Lord Rama's portal and 
+everyone can visit the portal and indulge in virtual lighting of lamps this Diwali. 
+To give this virtual celebration, a more real feel, some interesting options will be present on the web portal.
+Devotees will be able to choose from earthen, copper, and brass diyas.</p><p>
+Moreover, they can pick oil of their own choice to light the diyas, 
+from the options (ghee, mustard oil, and sesame oil) given.
+</p>
+</h4>
+</body>
+</html>

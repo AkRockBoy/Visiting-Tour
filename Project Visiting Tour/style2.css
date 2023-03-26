@@ -1,0 +1,11 @@
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.3%;
+  padding: 1px;
+}
+img {
+  border: 5px solid #555;
+}

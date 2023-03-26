@@ -1,0 +1,64 @@
+<%@ page import="java.sql.*" %>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style1.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="bg-secondary text-white " class="text-danger" style="text-align:center;">Winter Training Management System</h1>
+                </div>
+            </div>	
+</div>  
+<table cellspacing="10" cellpadding="15"><tr>
+        <td><a class="text-warning" href="index.jsp"><b>Home</b></a></td>
+        <td><a class="text-warning" href="place.jsp"><b>Place</b></a> </td>
+        <td><a class="text-warning" href="#"><b>About</b></a></td>
+        <td><a class="text-warning" href="#"><b>Contact</b></a></td></tr></table>  
+<h2>Login Page</h2>
+<div class="login">
+<form id="login" method="get" action="">
+<label><b>Username</b></label><br>
+<input type="text" name="t1" id="name" placeholder="Username" required=""><br><br>
+<label><b>Password</b></label><br>
+<input type="password" name="t2" id="pass" placeholder="Password" required=""><br><br>
+<input type="checkbox" id="check"><span><b>Remember me</b></span><br><br>
+<b><input type="submit" name="log" id="log" value="Log In Here"  class="btn btn-success" /></b>
+<br><br>
+</form>
+<%
+    if(request.getParameter("log")!=null)
+	{        
+          String gemail,gpwd;
+          gemail=request.getParameter("t1");
+          gpwd=request.getParameter("t2");
+         if(gemail.equals("Harshit@1234")&& gpwd.equals("rockboy"))
+		 {
+			 response.sendRedirect("place.jsp");
+		 }
+		 else if(gemail.equals("Nimish@1234")&& gpwd.equals("rockboy"))
+		 {
+			 response.sendRedirect("place.jsp");
+		 }
+		 else if(gemail.equals("Aman@1234")&& gpwd.equals("rockboy"))
+		 {
+			 response.sendRedirect("place.jsp");
+		 }
+		 else if(gemail.equals("Anuj@1234")&& gpwd.equals("rockboy"))
+		 {
+			 response.sendRedirect("place.jsp");
+		 }
+		 else{
+			 
+			 out.println("You are unauthorized user");
+		 }
+  }
+%>
+</div>
+</body>
+</html>
